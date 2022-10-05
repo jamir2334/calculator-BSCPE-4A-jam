@@ -38,7 +38,7 @@ function App() {
         setDisp(num1+value);
       }
     } else {
-      if (num2 === 0) {
+      if (parseInt(num2) === 0) {
         setNum2(value)
         setDisp(value);      
     } else {
